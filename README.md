@@ -3,11 +3,9 @@
 
 ###To run the using command prompt: 
 
-Set working directory to /aatina_project/src/
-
-Compile using javac oracleproject/RunFileStatistics.java
-
-Run the file with two parameters: the path of the file from the current working directory and the method you'd like to run.
+1. Set working directory to /aatina_project/src/
+2. Compile using javac oracleproject/RunFileStatistics.java
+3. Run the file with two parameters: the path of the file from the current working directory and the method you'd like to run.
 
 Eg :	java oracleproject/RunFileStatistics tests/test1.txt 1 - This would run FileStatistics.wordCount()
 	java oracleproject/RunFileStatistics tests/test0.txt 2 - This would run FileStatistics.lineCount()
