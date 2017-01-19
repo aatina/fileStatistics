@@ -1,12 +1,16 @@
 # fileStatistic
-To test the library FileStatistics you have to run the class RunFileStatistics, using the command prompt or a suitable IDE like Eclispe. 
+#####To test the library FileStatistics you have to run the class RunFileStatistics, using the command prompt or a suitable IDE like Eclispe. 
 
-To run the using command prompt: 
-	- Set working directory to /aatina_project/src/
-	- Compile using javac oracleproject/RunFileStatistics.java
-	- Run the file with two parameters: the path of the file from the current working directory and the method you'd like to run.
-	- Eg :	java oracleproject/RunFileStatistics tests/test1.txt 1 - This would run FileStatistics.wordCount()
-			java oracleproject/RunFileStatistics tests/test0.txt 2 - This would run FileStatistics.lineCount()
+###To run the using command prompt: 
+
+Set working directory to /aatina_project/src/
+
+Compile using javac oracleproject/RunFileStatistics.java
+
+Run the file with two parameters: the path of the file from the current working directory and the method you'd like to run.
+
+Eg :	java oracleproject/RunFileStatistics tests/test1.txt 1 - This would run FileStatistics.wordCount()
+	java oracleproject/RunFileStatistics tests/test0.txt 2 - This would run FileStatistics.lineCount()
 
 	- The methods are as follows: 
 		 1 - Word Count
