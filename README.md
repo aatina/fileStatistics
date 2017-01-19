@@ -1,3 +1,4 @@
+# fileStatistic
 To test the library FileStatistics you have to run the class RunFileStatistics, using the command prompt or a suitable IDE like Eclispe. 
 
 To run the using command prompt: 
@@ -8,15 +9,15 @@ To run the using command prompt:
 			java RunFileStatistics tests/lineCountTest.txt 2 - This would run FileStatistics.lineCount()
 
 	- The methods are as follows: 
-		* 1 - Word Count
- 		* 2 - Line Count
- 		* 3 - Average number of letters per word
-	 	* 4 - Most commonly occurring letter in the file
+		 1 - Word Count
+ 		 2 - Line Count
+ 		 3 - Average number of letters per word
+	 	 4 - Most commonly occurring letter in the file
 
-Some notes:
-	- The methods return a null value (or -1 for int methods), if the file is not valid.
-	- The class works for special characters and different alphabets (eg japanTest), but the method mostCommonLetter may not print out the character correctly. This is simply a output issue due to the nature of some languages.
-	- FileFormatException is an IO exception class that for some reason would not import, so it’s put within the package.
+  Some notes:
+  - The methods return a null value (or -1 for int methods), if the file is not valid.
+  - The class works for special characters and different alphabets (eg japanTest), but the method mostCommonLetter may not print out the character correctly. This is simply a output issue due to the nature of some languages.
+  - FileFormatException is an IO exception class that for some reason would not import, so it’s put within the package.
 
 Check the javadocs - oracle/doc/index.html for more details about the class and its methods.
 
